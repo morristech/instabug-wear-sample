@@ -67,7 +67,7 @@ In the Application class add this line to the onCreate method:
 
 and that's it!
 
-Just shake your smartwatch to report bugs, send feedback, or start chatting with the dev team.
+Just shake your smartwatch to report bugs, send feedback, or start chatting.
 
 ### Customizations 
 
