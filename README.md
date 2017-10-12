@@ -1,7 +1,25 @@
 ## InstabugWear
 
-The first bug reporting SDK for Android wearable devices.
+The first bug reporting SDK for Android wearable devices. This is Version 0.1.0.
 
+#### Version 0.1.0
+
+InstabugWear detects a shake gesture from your smartwatch and triggers prompt options on your smartphone to start a chat, report a bug, or send feedback. Bug reports and feedback include an annotatable screenshot from the wearable device. 
+
+This works when your smartwatch is connected to your mobile and the same app is installed on both devices. The gesture only works when the app is open in the foreground of your mobile and wearable device at the same time.
+
+#### Upcoming Versions
+
+In progress. Bug reports will include:
+
+* Device type
+* Device vendor
+* App version
+* Device locale
+* OS level
+* Network state
+* Battery state
+* Extra screenshots
 
 ## Integration Steps
 
@@ -34,7 +52,7 @@ Now all you need to do is:
 
 ### In your mobile app module
 
-In the Application class add this line to the onCreate method
+In the Application class add this line to the onCreate method:
 ```java 
  new Instabug.Builder(this, "APP_TOKEN").build();
 ```
@@ -42,7 +60,7 @@ You can find your app token by selecting the SDK tab from your [Instabug dashboa
 
 ### In your wear app module
 
-In the Application class add this line to the onCreate method
+In the Application class add this line to the onCreate method:
 ```java
         InstabugWear.getInstance().init(this);
 ```
@@ -57,7 +75,7 @@ If you want to customize the UI and other features, see our [Android-docs](https
 
 ## Contact Us
 
-If you have any questions or feedback don't hesitate to get in touch. You can reach us at any time through [support@instabug.com](mailto:support@instabug.com).
+If you have any questions or feedback, don't hesitate to get in touch. You can reach us at any time through [support@instabug.com](mailto:support@instabug.com).
 
 ## Authors
 * **Hossam Hassan**
