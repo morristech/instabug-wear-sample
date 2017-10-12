@@ -1,0 +1,1 @@
+include ':instabug-mobile-sample', ':instabug-wear-sample'

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InstabugWearSample</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="ambientModeText">In Ambient mode!</string>
+    <string name="interactiveModeText">In Interactive mode!</string>
+
+
+</resources>
